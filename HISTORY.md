@@ -4,6 +4,25 @@ Release History
 master
 ------
 
+**Bugfixes**
+
+* [#83](https://github.com/vinayak-mehta/present/issues/83) Having two consecutive image inclusion lines causes NotImplementedError. [#85](https://github.com/vinayak-mehta/present/pull/85) by Vinayak Mehta.
+* [#82](https://github.com/vinayak-mehta/present/issues/82) Using markdown comments throws NotImplementedError. [#84](https://github.com/vinayak-mehta/present/pull/84) by Vinayak Mehta.
+* [#80](https://github.com/vinayak-mehta/present/issues/80) Image paths aren't relative to the current working directory. [#81](https://github.com/vinayak-mehta/present/pull/81) by [Tymoteusz Makowski](https://github.com/tmakowski).
+
+**Documentation**
+
+* Add a gallery! [#74](https://github.com/vinayak-mehta/present/pull/74) by Vinayak Mehta.
+* [#36](https://github.com/vinayak-mehta/present/issues/36) Add contributing guide. [#69](https://github.com/vinayak-mehta/present/pull/69) by Vinayak Mehta.
+
+0.5.1 (2020-08-31)
+------------------
+
+**Bugfixes**
+
+* [#48](https://github.com/vinayak-mehta/present/issues/48), [#54](https://github.com/vinayak-mehta/present/issues/54), [#52](https://github.com/vinayak-mehta/present/issues/52) Remove italics support temporarily. [#58](https://github.com/vinayak-mehta/present/pull/58) by Vinayak Mehta.
+* [#55](https://github.com/vinayak-mehta/present/issues/55) Yank versions older than `0.5.0` from PyPI because they didn't have `python_requires>=3.7`.
+
 0.5.0 (2020-08-30)
 ------------------
 

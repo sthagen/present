@@ -2,10 +2,6 @@
 
 from random import randint, choice
 
-import asciimatics.renderers
-
-asciimatics.renderers.ATTRIBUTES["5"] = 5
-
 from asciimatics.effects import Print
 from asciimatics.screen import Screen
 from asciimatics.effects import Stars, Matrix
@@ -20,7 +16,6 @@ from asciimatics.renderers import (
 
 
 ATTRS = {
-    "italic": 5,
     "bold": Screen.A_BOLD,
     "normal": Screen.A_NORMAL,
     "reverse": Screen.A_REVERSE,
@@ -205,7 +200,13 @@ def _fireworks(screen):
         y = randint(*choice(y_regions))
         effects.insert(
             1,
-            StarFirework(screen, x, y, randint(25, 30), start_frame=randint(0, 250),),
+            StarFirework(
+                screen,
+                x,
+                y,
+                randint(25, 30),
+                start_frame=randint(0, 250),
+            ),
         )
     return effects
 
@@ -226,7 +227,13 @@ def _explosions(screen):
         x = randint(*choice(x_regions))
         y = randint(*choice(y_regions))
         effects.append(
-            Explosion(screen, x, y, randint(20, 30), start_frame=randint(0, 250),)
+            Explosion(
+                screen,
+                x,
+                y,
+                randint(20, 30),
+                start_frame=randint(0, 250),
+            )
         )
     return effects
 

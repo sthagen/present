@@ -18,7 +18,9 @@ You can also play a [codio](https://present.readthedocs.io/en/latest/codio.html)
    <img src="https://raw.githubusercontent.com/vinayak-mehta/present/master/docs/_static/codio.gif" width="800">
 </p>
 
-`present` is built on [asciimatics](https://github.com/peterbrittain/asciimatics).
+`present` is built on [asciimatics](https://github.com/peterbrittain/asciimatics), and it works with `Python>=3.7`.
+
+Check out the [gallery](https://present.readthedocs.io/en/latest/gallery/index.html) to see what everyone is making with `present`! You can add your slides by simply [opening an issue](https://github.com/vinayak-mehta/present/issues/new?assignees=&labels=made-with-present&template=submit-slides-to-gallery.md&title=Add+slides+to+gallery).
 
 ## Installation
 
@@ -47,7 +49,7 @@ At the end, you can press `r` to restart the presentation.
 Slides follow [Markdown](https://guides.github.com/features/mastering-markdown/) syntax. You can check out the [sample slides](https://github.com/vinayak-mehta/present/blob/master/examples/sample.md) for reference.
 
 **Note:** Some things aren't supported yet:
-- Effects and foreground / background colors on the same slide.
+- Effects and colors on the same slide.
 - Effects and code on the same slide.
 
 ### Separator
@@ -80,8 +82,6 @@ Level 1 headings become figlets, level 2 headings get underlined with `-`, and l
 This is normal text
 
 This is **bold text**
-
-This is *italic text*
 
 This is `inline code`
 
@@ -155,6 +155,10 @@ Slide 3
 Colors: `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`.
 
 Effects: `fireworks`, `explosions`, `stars`, `matrix`, `plasma`. More coming soon!
+
+## Contributing
+
+The [Contributor's Guide](https://present.readthedocs.io/en/latest/contributing.html) has detailed information about contributing issues, documentation, code, and tests.
 
 ## Versioning
 

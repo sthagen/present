@@ -19,7 +19,7 @@ requires = [
     "pyfiglet>=0.8.post1",
     "PyYAML>=5.3.1",
 ]
-dev_requires = ["Sphinx>=2.2.1"]
+dev_requires = ["black>=20.8b1", "Sphinx>=2.2.1"]
 dev_requires = dev_requires + requires
 
 
@@ -34,9 +34,13 @@ def setup_package():
         classifiers=[
             # Trove classifiers
             # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
+            "Environment :: Console",
             "License :: OSI Approved :: Apache Software License",
+            "Programming Language :: Python",
             "Programming Language :: Python :: 3.7",
             "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.9",
+            "Programming Language :: Python :: 3 :: Only",
         ],
         url=about["__url__"],
         project_urls={

@@ -19,6 +19,9 @@ present — A terminal-based presentation tool with colors and effects
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/ambv/black
 
+.. image:: https://repl.it/badge/github/vinayak-mehta/present
+    :target: https://repl.it/@amasad/terminal-present
+
 ``present`` is a terminal-based presentation tool with colors and effects.
 
 .. image:: _static/demo.gif
@@ -27,7 +30,11 @@ You can also play a :ref:`codio` (pre-recorded code block) on a slide.
 
 .. image:: _static/codio.gif
 
-``present`` is built on `asciimatics <https://github.com/peterbrittain/asciimatics>`_.
+``present`` is built on `asciimatics <https://github.com/peterbrittain/asciimatics>`_, and it works with ``Python>=3.7``.
+
+Check out the :ref:`gallery` to see what everyone is making with ``present``! You can add your slides by simply `opening an issue`_.
+
+.. _opening an issue: https://github.com/vinayak-mehta/present/issues/new?assignees=&labels=made-with-present&template=submit-slides-to-gallery.md&title=Add+slides+to+gallery
 
 Installation
 ------------
@@ -58,7 +65,7 @@ Slides follow `Markdown <https://guides.github.com/features/mastering-markdown/>
 
 .. note:: Some things aren't supported yet:
 
-    - Effects and foreground / background colors on the same slide.
+    - Effects and colors on the same slide.
     - Effects and code on the same slide.
 
 Separator
@@ -95,8 +102,6 @@ Text
     This is normal text
 
     This is **bold text**
-
-    This is *italic text*
 
     This is `inline code`
 
@@ -176,6 +181,11 @@ Each slide can be styled with foreground / background colors and effects. By def
 Colors: ``black``, ``red``, ``green``, ``yellow``, ``blue``, ``magenta``, ``cyan``, ``white``.
 
 Effects: ``fireworks``, ``explosions``, ``stars``, ``matrix``, ``plasma``. More coming soon!
+
+Contributing
+------------
+
+The :ref:`contributing` has detailed information about contributing issues, documentation, code, and tests.
 
 Versioning
 ----------
